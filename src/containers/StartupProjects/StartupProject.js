@@ -78,9 +78,10 @@ export default function StartupProject() {
                     <br />
                     <div className="project-card-footer">
                       <div>
-                        <Link to="/project">
+                        <Link to="/project"
+                         onClick={() => window.scrollTo(0, 0)}>
                           <Button
-                            onClick={() => window.scrollTo(0, 0)}
+                           
                             text={"프로젝트 자세히 보기"}
                             className="project-button"
                           />
