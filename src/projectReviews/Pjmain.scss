@@ -1,5 +1,5 @@
 @import "../globalColor";
-.pj{
+.pj {
   justify-items: center;
   width: 60%;
   justify-self: center;
@@ -7,7 +7,7 @@
 }
 .pjtest {
   padding-top: 20px;
-  height: 2000px; 
+  height: 2000px;
 }
 
 .pjhead {
@@ -21,8 +21,8 @@
   font-size: 26px;
 }
 .pjsection {
-  opacity: 0;  
-  transition: opacity 0.5s ease-in-out; 
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
   width: 100%;
   height: 100%;
   align-items: center;
@@ -31,20 +31,20 @@
 }
 
 .pjsection.fade-in {
-  opacity: 1;  
+  opacity: 1;
 }
-.pjtitle{
+.pjtitle {
   margin-bottom: 12px;
   font-family: "nanum-bd";
   font-size: 32px;
 }
-.pjsubtitle{
+.pjsubtitle {
   margin-bottom: 4px;
   margin-top: 18px;
   font-family: "nanum-bd";
   font-size: 23px;
 }
-.pjcontent{
+.pjcontent {
   width: 100%;
   height: 100%;
   align-items: center;
@@ -60,14 +60,14 @@
   width: 100%;
   display: block;
 }
-.pjcontent >div >p {
+.pjcontent > div > p {
   margin-bottom: 12px;
   padding: 0;
   width: 100%;
   display: block;
 }
 
-.pjlist{
+.pjlist {
   margin-bottom: 14px;
   margin-top: 7px;
   width: 100%;
@@ -76,7 +76,7 @@
 // .pj > *{
 //     border : 1px solid;
 // }
-.pjcodeblock{
+.pjcodeblock {
   width: 100%;
   align-items: center;
   justify-items: left;
@@ -84,7 +84,7 @@
   margin-top: 14px;
 }
 
-.pjfoot{
+.pjfoot {
   width: 100%;
   height: 100%;
   align-items: center;
@@ -92,12 +92,10 @@
   text-align: center;
   font-family: "nanum-eb";
   font-size: 22px;
-  border : 1px solid;
+  border: 1px solid;
   padding: 20px;
-  
-  
 }
-.pjfoot > h4{
+.pjfoot > h4 {
   width: 100%;
   height: 100%;
   align-items: center;
@@ -107,7 +105,7 @@
   font-size: 13px;
 }
 
-.pjsection:hover .pjborder{
+.pjsection:hover .pjborder {
   border-color: $educationCardBorder;
   width: 50%;
   -webkit-transition: width 0.6s ease-in-out;
@@ -116,7 +114,7 @@
   transition: width 0.6s ease-in-out;
 }
 
-.pjborder{
+.pjborder {
   height: 8px;
   width: 40%;
   border-top: 2px solid $lightBorder1;
@@ -128,42 +126,42 @@
   margin-top: 15px;
 }
 
-.codetitle{
- font-size: 16px;
- color:dimgrey
+.codetitle {
+  font-size: 16px;
+  color: dimgrey;
 }
 @media (max-width: 1380px) {
-  .pjhead{
+  .pjhead {
     font-size: 18px;
   }
-  .pjtitle{
+  .pjtitle {
     font-size: 24px;
   }
-  .pjsubtitle{
+  .pjsubtitle {
     font-size: 20px;
   }
-  .pjcontent{
+  .pjcontent {
     font-size: 16px;
   }
-  .codetitle{
+  .codetitle {
     font-size: 12px;
   }
 }
 
 @media (max-width: 768px) {
-  .pjhead{
+  .pjhead {
     font-size: 16px;
   }
-  .pjtitle{
+  .pjtitle {
     font-size: 20px;
   }
-  .pjsubtitle{
+  .pjsubtitle {
     font-size: 18px;
   }
-  .pjcontent{
+  .pjcontent {
     font-size: 14px;
   }
-  .codetitle{
+  .codetitle {
     font-size: 10px;
   }
 }

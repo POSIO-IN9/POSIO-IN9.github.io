@@ -3,9 +3,8 @@
 .pjcard-image {
   width: 450px;
   height: auto;
-  
 }
-.pj-heading{
+.pj-heading {
   font-size: 52px;
   font-weight: 400;
   font-family: "modu-bold";
@@ -20,7 +19,7 @@
   font-family: "modu-light";
 }
 
-.project-button{
+.project-button {
   font-family: "Modu-light";
 }
 .pjcard-subtitle {
@@ -44,7 +43,7 @@
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.project-card-footer{
+.project-card-footer {
   display: flex;
   justify-content: center;
   margin: 5px;
@@ -113,9 +112,8 @@
   .pjcard-image {
     width: 100;
     height: auto;
-    
   }
-  .pj-heading{
+  .pj-heading {
     font-size: 32px;
     font-weight: 400;
     font-family: "modu-bold";

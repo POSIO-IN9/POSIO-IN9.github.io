@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import './ScrollLine.scss';
+import React, {useState, useEffect} from "react";
+import "./ScrollLine.scss";
 
 const ScrollLine = () => {
   const [scrollWidth, setScrollWidth] = useState(0);
@@ -7,23 +7,23 @@ const ScrollLine = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      const documentHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const documentHeight =
+        document.documentElement.scrollHeight - window.innerHeight;
       const scrollPercentage = (scrollPosition / documentHeight) * 100;
 
-      
       setScrollWidth(scrollPercentage);
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   return (
     <div className="scheader">
-      <div className="scline" style={{ width: `${scrollWidth}%` }}></div>
+      <div className="scline" style={{width: `${scrollWidth}%`}}></div>
     </div>
   );
 };

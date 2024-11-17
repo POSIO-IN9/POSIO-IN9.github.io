@@ -54,7 +54,9 @@ export default function StartupProject() {
                   ) : null}
                   <div className="project-detail">
                     <h5
-                      className={isDark ? "dark-mode pjcard-title" : "pjcard-title"}
+                      className={
+                        isDark ? "dark-mode pjcard-title" : "pjcard-title"
+                      }
                     >
                       {project.projectName}
                     </h5>
@@ -72,25 +74,25 @@ export default function StartupProject() {
                     >
                       {project.projectsubtitle}
                     </p>
-                    <br/>
-                      <div className="project-card-footer">
-                        <div>
-                          <Button
+                    <br />
+                    <div className="project-card-footer">
+                      <div>
+                        <Button
                           onClick={() => window.scrollTo(0, 0)}
                           text={"프로젝트 자세히 보기"}
                           className="project-button"
                           href="/project"
-                          />
-                        </div>
-                        <div>
-                        <Button
-                        text={"시연영상 보기 및 내려받기"}
-                        className="project-button"
-                        href={project.footerLink[0].url}
-                        newTab={true}
                         />
-                        </div>
                       </div>
+                      <div>
+                        <Button
+                          text={"시연영상 보기 및 내려받기"}
+                          className="project-button"
+                          href={project.footerLink[0].url}
+                          newTab={true}
+                        />
+                      </div>
+                    </div>
                   </div>
                 </div>
               );

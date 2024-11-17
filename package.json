@@ -1,7 +1,7 @@
 {
   "homepage": "https://posio-in9.github.io/",
-    "name": "in9-pf",
-    "version": "0.1.0",
+  "name": "in9-pf",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@xterm/xterm": "^5.5.0",

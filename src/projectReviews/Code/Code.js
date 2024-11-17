@@ -1,8 +1,7 @@
-const code01 = 
-{
-id: 1,
-title:'jpaRepository 중 교육기관 별 수치화 데이터 sorting ',
-string:`import java.util.List;
+const code01 = {
+  id: 1,
+  title: "jpaRepository 중 교육기관 별 수치화 데이터 sorting ",
+  string: `import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -24,14 +23,13 @@ public interface ListRepository extends JpaRepository<Edu_list, Long>{
             nativeQuery = true)
     List<Edu_list> findByNcsCodeFirstSixSortByPs(@Param("codePart") String codePart);
 `,
-lang:'java'
+  lang: "java"
 };
 
-const code02 = 
-{
-id: 2,
-title:'googlestorage 파일 업로드 중 일부',
-string:`public class AccountFileUtil {
+const code02 = {
+  id: 2,
+  title: "googlestorage 파일 업로드 중 일부",
+  string: `public class AccountFileUtil {
 
 	@Value("#{spring.cloud.gcp.storage.bucket}")
 	private String bucketName;
@@ -70,13 +68,12 @@ string:`public class AccountFileUtil {
 		return uploadNames;
 	}
 `,
-lang:'java'
+  lang: "java"
 };
-const code03 = 
-{
-id: 3,
-title:'리뷰요약 프로세서 중 AI모델 입출력 결과 데이터 입력 수행 파트',
-string:`def process_summaries():
+const code03 = {
+  id: 3,
+  title: "리뷰요약 프로세서 중 AI모델 입출력 결과 데이터 입력 수행 파트",
+  string: `def process_summaries():
     print("요약시작")
     last_processed = session.query(SummaryReview.course_id).order_by(SummaryReview.course_id.desc()).first()
     last_processed_id = last_processed if last_processed else None
@@ -123,13 +120,12 @@ string:`def process_summaries():
         session.commit()
     print("요약 처리 완료!")
 `,
-lang:'python'
+  lang: "python"
 };
-const code04 = 
-{
-id: 3,
-title:'AI상담 챗봇 프로세서 중 유사도 검색 및 프롬프트 입력 부분',
-string:`def load_vector_store():
+const code04 = {
+  id: 3,
+  title: "AI상담 챗봇 프로세서 중 유사도 검색 및 프롬프트 입력 부분",
+  string: `def load_vector_store():
     start_time = time.time()
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     print('GPU로드', device)
@@ -195,13 +191,12 @@ def chatbot_j(input):
 
     return output
 `,
-lang:'python'
+  lang: "python"
 };
-const code05 = 
-{
-id: 5,
-title:'docker-compose',
-string:`name: Ai_job_compass
+const code05 = {
+  id: 5,
+  title: "docker-compose",
+  string: `name: Ai_job_compass
 
 services:
   flask:
@@ -242,13 +237,12 @@ networks:
   ai_job_network:
     driver: bridge
 `,
-lang:'yml'
+  lang: "yml"
 };
-const code06 = 
-{
-id: 6,
-title:'nginx.conf',
-string:`
+const code06 = {
+  id: 6,
+  title: "nginx.conf",
+  string: `
 server {
     listen 80;
     server_name moelcompass.com;
@@ -298,13 +292,6 @@ server {
     }
 }
 `,
-lang:'conf'
+  lang: "conf"
 };
-export{
-  code01,
-  code02,
-  code03,
-  code04,
-  code05,
-  code06
-}
+export {code01, code02, code03, code04, code05, code06};

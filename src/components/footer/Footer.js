@@ -23,7 +23,8 @@ export default function Footer() {
           </a>
         </p>
         <p className={isDark ? "dark-mode footer-text-me" : "footer-text-me"}>
-        Edited by Choe Ingyu</p>
+          Edited by Choe Ingyu
+        </p>
       </div>
     </Fade>
   );

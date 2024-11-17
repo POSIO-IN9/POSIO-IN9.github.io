@@ -1,82 +1,78 @@
 .codeblock {
-    background-color: rgb(47,47,47);
-    position: relative;
-    max-width: 100%;
-    width: 85%;
-    margin: '10px 0';
-    border-radius: 8px;
-  }
-  
-  .codeblocklang{
-    position: absolute;
-    z-index: 1;
-    top: 0; 
-    left: 0; 
-    margin : 4px;
-    margin-left: 10px;
-    margin-top: 6px;
-    font-size: 14px;
-    color: #CCCCCC;
-    align-self: center;
-  }
-  .copy {
-    /* button */
-    --button-bg: #353434;
-    --button-hover-bg: #464646;
-    --button-text-color: #CCCCCC;
-    --button-hover-text-color: #8bb9fe;
-    --button-border-radius: 10px;
-    --button-diameter: 36px;
-    --button-outline-width: 1px;
-    --button-outline-color: rgb(141, 141, 141);
-  
-    box-sizing: border-box;
-    width: var(--button-diameter);
-    height: var(--button-diameter);
-    border-radius: var(--button-border-radius);
-    background-color: var(--button-bg);
-    color: var(--button-text-color);
-    border: none;
-    cursor: pointer;
-    position: absolute;
-    top: 0; 
-    right: 0; 
-    z-index: 1;
-    outline: none;
-    margin : 4px;
-  }
-  
-  .copy svg {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    align-items: center;
-    justify-self: center;
-  }
-  
-  .checkmark {
-    display: none;
-  }
-  
-  /* actions */
-  .copy:hover,
-  .copy:focus {
-    background-color: var(--button-hover-bg);
-  }
-  
-  .copy:active {
-    outline: var(--button-outline-width) solid var(--button-outline-color);
-  }
-  
-  .copy:hover svg {
-    color: var(--button-hover-text-color);
-  }
-  
-  .copy:focus:not(:focus-visible) .checkmark {
-    display: block;
-  }
+  background-color: rgb(47, 47, 47);
+  position: relative;
+  max-width: 100%;
+  width: 85%;
+  margin: "10px 0";
+  border-radius: 8px;
+}
 
+.codeblocklang {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  margin: 4px;
+  margin-left: 10px;
+  margin-top: 6px;
+  font-size: 14px;
+  color: #cccccc;
+  align-self: center;
+}
+.copy {
+  /* button */
+  --button-bg: #353434;
+  --button-hover-bg: #464646;
+  --button-text-color: #cccccc;
+  --button-hover-text-color: #8bb9fe;
+  --button-border-radius: 10px;
+  --button-diameter: 36px;
+  --button-outline-width: 1px;
+  --button-outline-color: rgb(141, 141, 141);
 
+  box-sizing: border-box;
+  width: var(--button-diameter);
+  height: var(--button-diameter);
+  border-radius: var(--button-border-radius);
+  background-color: var(--button-bg);
+  color: var(--button-text-color);
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  outline: none;
+  margin: 4px;
+}
 
-  
+.copy svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-self: center;
+}
+
+.checkmark {
+  display: none;
+}
+
+/* actions */
+.copy:hover,
+.copy:focus {
+  background-color: var(--button-hover-bg);
+}
+
+.copy:active {
+  outline: var(--button-outline-width) solid var(--button-outline-color);
+}
+
+.copy:hover svg {
+  color: var(--button-hover-text-color);
+}
+
+.copy:focus:not(:focus-visible) .checkmark {
+  display: block;
+}

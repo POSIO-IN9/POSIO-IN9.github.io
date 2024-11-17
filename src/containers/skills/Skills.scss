@@ -1,6 +1,5 @@
 @import "../../_globalColor";
 
-
 .skills-main-div {
   display: flex;
   overflow: hidden;
@@ -22,11 +21,10 @@
   margin-right: 10px;
   font-family: "Modu-light";
 }
-.skills-content-div{
+.skills-content-div {
   width: 90%;
   padding: 30px;
   margin: 10px;
-  
 }
 
 .skills-main-div > * {
@@ -53,17 +51,15 @@
     text-align: center;
   }
   .skills-text-div {
-    width: 100%; 
-    text-align: center; 
+    width: 100%;
+    text-align: center;
     align-items: center;
     margin-top: 40px;
   }
-  .skills-content-div{
+  .skills-content-div {
     flex-grow: 1;
     padding: 20px;
   }
-  
-
 }
 @media (max-width: 768px) {
   .skills-heading {

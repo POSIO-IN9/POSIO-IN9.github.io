@@ -1,7 +1,5 @@
 const resume = {
-    link:""
-}
+  link: ""
+};
 
-export{
-    resume
-}
+export {resume};

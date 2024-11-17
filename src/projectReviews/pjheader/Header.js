@@ -1,18 +1,18 @@
-import React, { useContext } from "react"
-import Headroom from "react-headroom"
-import "./Header.scss"
-import ToggleSwitch from "../../components/ToggleSwitch/ToggleSwitch"
-import StyleContext from "../../contexts/StyleContext"
-import { greeting } from "../../portfolio"
+import React, {useContext} from "react";
+import Headroom from "react-headroom";
+import "./Header.scss";
+import ToggleSwitch from "../../components/ToggleSwitch/ToggleSwitch";
+import StyleContext from "../../contexts/StyleContext";
+import {greeting} from "../../portfolio";
 
-function Header({ section }) {
-  const { isDark } = useContext(StyleContext)
+function Header({section}) {
+  const {isDark} = useContext(StyleContext);
 
-  const handleScroll = (i) => {
+  const handleScroll = i => {
     if (section.current[i]) {
-      section.current[i].scrollIntoView({ behavior: "smooth" })
+      section.current[i].scrollIntoView({behavior: "smooth"});
     }
-  }
+  };
 
   return (
     <Headroom>
@@ -26,7 +26,7 @@ function Header({ section }) {
         <label
           className="menu-icon"
           htmlFor="menu-btn"
-          style={{ color: "white" }}
+          style={{color: "white"}}
         >
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
@@ -51,7 +51,7 @@ function Header({ section }) {
         </ul>
       </header>
     </Headroom>
-  )
+  );
 }
 
-export default Header
+export default Header;

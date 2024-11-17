@@ -20,24 +20,21 @@
   font-family: "Modu-light";
   font-style: normal;
   font-weight: normal;
-  src: local("Modu-light"),
-    url("./assets/fonts/modu-light.woff")format("woff");
+  src: local("Modu-light"), url("./assets/fonts/modu-light.woff") format("woff");
   font-display: swap;
 }
 @font-face {
   font-family: "Modu-bold";
   font-style: normal;
   font-weight: normal;
-  src: local("Modu-bold"),
-    url("./assets/fonts/modu-bold.woff")format("woff");
+  src: local("Modu-bold"), url("./assets/fonts/modu-bold.woff") format("woff");
   font-display: swap;
 }
 @font-face {
   font-family: "Saem";
   font-style: normal;
   font-weight: normal;
-  src: local("saom"),
-    url("./assets/fonts/saom.woff")format("woff");
+  src: local("saom"), url("./assets/fonts/saom.woff") format("woff");
   font-display: swap;
 }
 @font-face {
@@ -45,43 +42,42 @@
   font-style: normal;
   font-weight: normal;
   src: local("Santokki"),
-    url("./assets/fonts/HSSantokki-Regular.woff")format("woff");
+    url("./assets/fonts/HSSantokki-Regular.woff") format("woff");
   font-display: swap;
 }
 @font-face {
   font-family: "Oak";
   font-style: normal;
   font-weight: normal;
-  src: local("Oak"),
-    url("./assets/fonts/oak.woff")format("woff");
+  src: local("Oak"), url("./assets/fonts/oak.woff") format("woff");
   font-display: swap;
 }
 @font-face {
   font-family: "pp-m";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/Paperlogy-5Medium.woff")format("woff");
+  src: url("./assets/fonts/Paperlogy-5Medium.woff") format("woff");
   font-display: swap;
 }
 @font-face {
   font-family: "nanum-rg";
   font-style: normal;
   font-weight: normal;
-  src:url("./assets/fonts/NanumSquareNeo-bRg.woff")format("woff");
+  src: url("./assets/fonts/NanumSquareNeo-bRg.woff") format("woff");
   font-display: swap;
 }
 @font-face {
   font-family: "nanum-eb";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/NanumSquareNeo-dEb.woff")format("woff");
+  src: url("./assets/fonts/NanumSquareNeo-dEb.woff") format("woff");
   font-display: swap;
 }
 @font-face {
   font-family: "nanum-bd";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/NanumSquareNeo-cBd.woff")format("woff");
+  src: url("./assets/fonts/NanumSquareNeo-cBd.woff") format("woff");
   font-display: swap;
 }
 code {

@@ -13,7 +13,7 @@
 .scline {
   position: relative;
   height: 100%;
-  
+
   transition: width 0.1s ease-out;
   left: 17px;
   align-self: center;
@@ -24,11 +24,11 @@
     position: absolute;
     top: 50%;
     right: 0;
-    transform: translate(50%, -50%); 
-    width: 34px; 
+    transform: translate(50%, -50%);
+    width: 34px;
     height: 20px;
     margin-top: 3px;
-    background-image: url('../../assets/images/pngegg.png'); 
+    background-image: url("../../assets/images/pngegg.png");
     background-size: cover;
     background-repeat: no-repeat;
   }
