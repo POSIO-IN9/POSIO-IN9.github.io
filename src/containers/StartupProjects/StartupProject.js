@@ -4,6 +4,7 @@ import {bigProjects} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 import Button from "../../components/button/Button";
+import { Link } from "react-router-dom";
 export default function StartupProject() {
   // function openUrlInNewTab(url) {
   //   if (!url) {
@@ -77,12 +78,13 @@ export default function StartupProject() {
                     <br />
                     <div className="project-card-footer">
                       <div>
-                        <Button
-                          onClick={() => window.scrollTo(0, 0)}
-                          text={"프로젝트 자세히 보기"}
-                          className="project-button"
-                          href="/project"
-                        />
+                        <Link to="/project">
+                          <Button
+                            onClick={() => window.scrollTo(0, 0)}
+                            text={"프로젝트 자세히 보기"}
+                            className="project-button"
+                          />
+                        </Link>
                       </div>
                       <div>
                         <Button
