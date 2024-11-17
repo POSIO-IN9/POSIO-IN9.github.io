@@ -7,7 +7,7 @@ import {
   greeting,
   educationInfo,
   skillsSection,
-  openSource,
+  // openSource,
   // achievementSection,
   bigProjects,
   resumeSection
@@ -16,7 +16,7 @@ import {
 function Header() {
   const {isDark} = useContext(StyleContext);
   const viewEducationInfo = educationInfo.display;
-  const viewOpenSource = openSource.display;
+  // const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewproject = bigProjects.display;
   const viewResume = resumeSection.display;
@@ -48,11 +48,11 @@ function Header() {
               <a href="#education">학력 및 교육</a>
             </li>
           )}
-          {viewOpenSource && (
+          {/* {viewOpenSource && (
             <li>
               <a href="#opensource">Open Source</a>
             </li>
-          )}
+          )} */}
           {viewproject && (
             <li>
               <a href="#projects">프로젝트(수상작)</a>
