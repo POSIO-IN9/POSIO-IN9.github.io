@@ -10,7 +10,7 @@ function App() {
       <RecoilRoot>
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/project" element={<Pjmain />} />
+          <Route path=":/project" element={<Pjmain />} />
         </Routes>
       </RecoilRoot>
     </Router>
