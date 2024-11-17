@@ -6,10 +6,10 @@ import Pjmain from "./projectReviews/Pjmain";
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
-        <Routes>
-          <Route path="/" element={<Main />} />
-          <Route path=":/project" element={<Pjmain />} />
-        </Routes>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path=":/project" element={<Pjmain />} />
+      </Routes>
     </Router>
   );
 }
