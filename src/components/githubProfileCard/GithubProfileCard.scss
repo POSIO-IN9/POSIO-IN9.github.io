@@ -1,0 +1,121 @@
+@import "../../_globalColor";
+
+.profile-image {
+  border-radius: 50%;
+  border: 0.5rem solid $githubProfileCardBorder;
+  margin-left: auto;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  box-shadow: $lightBoxShadow 0 30px 30px -30px;
+  transition: all 0.3s ease-out;
+}
+
+.profile-image:hover {
+  box-shadow: none;
+}
+
+.prof-title {
+  margin: 0;
+  font-size: 44px;
+  font-weight: 400;
+  font-family: "modu-bold";
+}
+.prof-subtitle{
+  font-family: "modu-bold";
+  font-size: 24px;
+}
+.location-div {
+  text-shadow: $githubProfileCardLocationTS;
+}
+
+.opp-div {
+  padding-bottom: 1rem;
+}
+
+.row {
+  display: flex;
+}
+
+.main-content-profile {
+  flex: 80%;
+  align-self: center;
+}
+
+.image-content-profile {
+  text-align: right;
+  flex: 20%;
+  max-width: 100%;
+  height: auto;
+}
+
+.bio-text {
+  line-height: 30px;
+  font-size: 28px;
+  font-family: "Saem";
+}
+.location-prof{
+  font-family: "Saem";
+  font-size: 23px;
+}
+.desc-prof {
+  line-height: 45px;
+  font-size: 27px;
+  font-family: "Saem";
+  color: #58ACFA;
+}
+
+.subTitle {
+  color: $subTitle;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-content-profile {
+    text-align: center;
+    order: 2;
+  }
+
+  .bio-text {
+    font-size: 22px;
+  }
+  .prof-subtitle{
+    font-family: "modu-bold";
+    font-size: 22px;
+  }
+
+  .image-content-profile {
+    margin-left: auto;
+    margin-right: auto;
+    order: 1;
+  }
+
+  .desc-prof {
+    line-height: 30px;
+    font-size: 16px;
+  }
+
+  .profile-image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+  }
+
+  .profile-image:hover {
+    box-shadow: $lightBoxShadow 0 50px 50px -50px;
+    transition: 0.3s ease-out;
+  }
+
+  .prof-title {
+    padding-bottom: 1rem;
+    font-size: 32px;
+    text-align: center;
+  }
+}

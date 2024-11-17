@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Agustina Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Agustina Regular"),
+    url("./assets/fonts/Agustina.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Modu-light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Modu-light"),
+    url("./assets/fonts/modu-light.woff")format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Modu-bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Modu-bold"),
+    url("./assets/fonts/modu-bold.woff")format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Saem";
+  font-style: normal;
+  font-weight: normal;
+  src: local("saom"),
+    url("./assets/fonts/saom.woff")format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Santokki";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Santokki"),
+    url("./assets/fonts/HSSantokki-Regular.woff")format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Oak";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Oak"),
+    url("./assets/fonts/oak.woff")format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "pp-m";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Paperlogy-5Medium.woff")format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "nanum-rg";
+  font-style: normal;
+  font-weight: normal;
+  src:url("./assets/fonts/NanumSquareNeo-bRg.woff")format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "nanum-eb";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/NanumSquareNeo-dEb.woff")format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "nanum-bd";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/NanumSquareNeo-cBd.woff")format("woff");
+  font-display: swap;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Media Query */
+@media (max-width: 1380px) {
+  html,
+  body {
+    font-size: rem;
+    line-height: normal;
+  }
+}

@@ -1,0 +1,35 @@
+@import "../../_globalColor";
+
+.scheader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 14px;
+  background-color: rgba(221, 221, 221, 0.1); // 투명한 #ddd 배경색
+  z-index: 1000;
+}
+
+.scline {
+  position: relative;
+  height: 100%;
+  
+  transition: width 0.1s ease-out;
+  left: 17px;
+  align-self: center;
+  align-items: center;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%); 
+    width: 34px; 
+    height: 20px;
+    margin-top: 3px;
+    background-image: url('../../assets/images/pngegg.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

@@ -1,0 +1,125 @@
+@import "../../_globalColor";
+
+.pjcard-image {
+  width: 450px;
+  height: auto;
+  
+}
+.pj-heading{
+  font-size: 52px;
+  font-weight: 400;
+  font-family: "modu-bold";
+  margin-bottom: 20px;
+}
+.pjcard-title {
+  color: $titleColor;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  margin: 10px 0px 5px 0;
+  font-family: "modu-light";
+}
+
+.project-button{
+  font-family: "Modu-light";
+}
+.pjcard-subtitle {
+  color: $cardSubtitle;
+  font-size: 21px;
+  line-height: 1.5rem;
+  font-family: "modu-light";
+}
+.project-card {
+  display: flex;
+  flex-direction: column;
+  background-color: $lightBackground2;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid $lightBorder1;
+  justify-content: center;
+}
+.project-card-light {
+  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.project-card-footer{
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  gap: 10px;
+}
+.project-card-dark {
+  box-shadow: 0px 10px 30px -15px $darkBoxShadow;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.25s ease;
+}
+
+.project-detail {
+  text-align: center;
+}
+.project-subtitle {
+  font-family: "modu-light";
+  font-size: larger;
+  padding-bottom: 5px;
+}
+.project-card-light:hover {
+  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+}
+.project-card-dark:hover {
+  box-shadow: 0px 20px 30px -10px $darkBoxShadow;
+}
+.project-image {
+  position: relative;
+  height: 400px;
+
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem 1rem;
+}
+
+.project-card-footer span.project-tag {
+  background: $buttonColor;
+  color: $lightBackground3;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  font-size: 0.75rem;
+  height: 2em;
+  justify-content: center;
+  white-space: nowrap;
+  line-height: 1.5;
+  margin: 0 0.5rem 0.5rem 0;
+  padding: 0 0.75em;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+@media (max-width: 768px) {
+  .project-subtitle {
+    font-size: 16px;
+    text-align: center;
+  }
+  .pjcard-image {
+    width: 100;
+    height: auto;
+    
+  }
+  .pj-heading{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "modu-bold";
+    margin-bottom: 20px;
+    justify-self: center;
+  }
+}

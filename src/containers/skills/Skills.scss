@@ -1,0 +1,93 @@
+@import "../../_globalColor";
+
+
+.skills-main-div {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  width: 100%;
+}
+
+.skills-text-div {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.skills-text {
+  font-size: 24px;
+  padding-left: 20px;
+  padding-right: 40px;
+  margin-right: 10px;
+  font-family: "Modu-light";
+}
+.skills-content-div{
+  width: 90%;
+  padding: 30px;
+  margin: 10px;
+  
+}
+
+.skills-main-div > * {
+  margin-bottom: 20px;
+}
+
+.skills-heading {
+  font-size: 44px;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Modu-bold";
+  margin: 2px;
+  padding-bottom: 40px;
+}
+.subTitle {
+  color: $textColor;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .skills-heading {
+    font-size: 40px;
+    font-family: "Modu-bold";
+    text-align: center;
+  }
+  .skills-text-div {
+    width: 100%; 
+    text-align: center; 
+    align-items: center;
+    margin-top: 40px;
+  }
+  .skills-content-div{
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+
+}
+@media (max-width: 768px) {
+  .skills-heading {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Modu-bold";
+  }
+  .greeting-text-p {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .skills-main-div {
+    flex-direction: column;
+    width: 100%;
+  }
+  .skills-text-div {
+    margin-left: 0px;
+  }
+  .skills-text {
+    font-size: 16px;
+    padding: 20px;
+  }
+  .skills-text-subtitle {
+    font-size: 16px;
+    text-align: center;
+  }
+}
