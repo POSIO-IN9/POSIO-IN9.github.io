@@ -81,7 +81,7 @@ export default function StartupProject() {
                           onClick={() => window.scrollTo(0, 0)}
                           text={"프로젝트 자세히 보기"}
                           className="project-button"
-                          href="#/project"
+                          href="/project"
                         />
                       </div>
                       <div>
