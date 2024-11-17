@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1f9ff988.css",
+    "main.js": "/static/js/main.d55fbc3d.js",
+    "static/css/769.d7bf27d4.chunk.css": "/static/css/769.d7bf27d4.chunk.css",
+    "static/js/769.0fcea9b7.chunk.js": "/static/js/769.0fcea9b7.chunk.js",
+    "static/media/backimg.jpg": "/static/media/backimg.efc20c2420f0d4bf22b2.jpg",
+    "static/media/modu-bold.woff": "/static/media/modu-bold.8eaefb5b786b8cf34f6b.woff",
+    "static/media/modu-light.woff": "/static/media/modu-light.0199f2fa3d48c9d10dc8.woff",
+    "static/media/NanumSquareNeo-dEb.woff": "/static/media/NanumSquareNeo-dEb.7b9747c79c853eb36842.woff",
+    "static/media/NanumSquareNeo-bRg.woff": "/static/media/NanumSquareNeo-bRg.5a9e3a08dfb8561e1484.woff",
+    "static/media/NanumSquareNeo-cBd.woff": "/static/media/NanumSquareNeo-cBd.93781e83c09c747cc825.woff",
+    "static/media/oak.woff": "/static/media/oak.32ddfcf1e4bfe5641ef5.woff",
+    "static/media/myimg.jpg": "/static/media/myimg.8fb9593ac4fe355dc4cf.jpg",
+    "static/media/saom.woff": "/static/media/saom.45eb872d86c9501b17fa.woff",
+    "static/media/Paperlogy-5Medium.woff": "/static/media/Paperlogy-5Medium.bd987b6728b5a817ed72.woff",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/HSSantokki-Regular.woff": "/static/media/HSSantokki-Regular.16219991f760752056ba.woff",
+    "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/pjimg.png": "/static/media/pjimg.c48b3ca0bfd7b0a985a5.png",
+    "static/media/이력서(최인규).pdf": "/static/media/이력서(최인규).c8b8a87e479e03a17c33.pdf",
+    "static/media/knu.png": "/static/media/knu.fc07e8e73d469daf6629.png",
+    "static/media/자기소개서(최인규).pdf": "/static/media/자기소개서(최인규).51eb509bcf21d2a31879.pdf",
+    "static/media/pnu.png": "/static/media/pnu.a2d8863a822a988bc119.png",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/pngegg.png": "/static/media/pngegg.7ec14209ae4d92089ae9.png",
+    "index.html": "/index.html",
+    "main.1f9ff988.css.map": "/static/css/main.1f9ff988.css.map",
+    "main.d55fbc3d.js.map": "/static/js/main.d55fbc3d.js.map",
+    "769.d7bf27d4.chunk.css.map": "/static/css/769.d7bf27d4.chunk.css.map",
+    "769.0fcea9b7.chunk.js.map": "/static/js/769.0fcea9b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f9ff988.css",
+    "static/js/main.d55fbc3d.js"
+  ]
+}
