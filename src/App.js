@@ -6,7 +6,7 @@ import {RecoilRoot} from "recoil";
 import Pjmain from "./projectReviews/Pjmain";
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <RecoilRoot>
         <Routes>
           <Route path="/" element={<Main />} />
