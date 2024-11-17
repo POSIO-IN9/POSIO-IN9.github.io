@@ -7,7 +7,7 @@ import Button from "../../components/button/Button";
 import {greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import frontImage from "../../assets/images/myimg.jpg";
-import backImage from "../../assets/images/backimg.jpg";
+import backImage from "../../assets/images/backimg.png";
 import FlipImage from "../../components/Flipimg/Greetingimg";
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);

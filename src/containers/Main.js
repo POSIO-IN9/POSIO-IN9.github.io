@@ -9,7 +9,7 @@ import Footer from "../components/footer/Footer";
 import Viewport from "../components/viewport/Viewport";
 import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
-import Profile from "./profile/Profile";
+// import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
@@ -52,7 +52,7 @@ const Main = () => {
             <StartupProject />
             {/* <Projects /> */}
             {/* <Achievement /> */}
-            <Profile />
+            {/* <Profile /> */}
             <Viewport />
             <Footer />
             <ScrollToTopButton />

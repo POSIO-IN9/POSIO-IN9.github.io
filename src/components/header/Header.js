@@ -63,9 +63,9 @@ function Header() {
               <a href="#resume">자기소개서 및 이력서</a>
             </li>
           )}
-          <li>
+          {/* <li>
             <a href="#contact">about me</a>
-          </li>
+          </li> */}
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a>
