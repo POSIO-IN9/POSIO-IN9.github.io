@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.670559ad.css",
-    "main.js": "/static/js/main.5e54f817.js",
+    "main.js": "/static/js/main.b781a959.js",
     "static/media/modu-bold.woff": "/static/media/modu-bold.8eaefb5b786b8cf34f6b.woff",
     "static/media/modu-light.woff": "/static/media/modu-light.0199f2fa3d48c9d10dc8.woff",
     "static/media/backimg.png": "/static/media/backimg.9395054fe25b7efa6479.png",
@@ -18,15 +18,15 @@
     "static/media/pjimg.png": "/static/media/pjimg.c48b3ca0bfd7b0a985a5.png",
     "static/media/이력서(최인규).pdf": "/static/media/이력서(최인규).c8b8a87e479e03a17c33.pdf",
     "static/media/knu.png": "/static/media/knu.fc07e8e73d469daf6629.png",
-    "static/media/자기소개서입니다(최인규).pdf": "/static/media/자기소개서입니다(최인규).51eb509bcf21d2a31879.pdf",
+    "static/media/자기소개서(최인규).pdf": "/static/media/자기소개서(최인규).51eb509bcf21d2a31879.pdf",
     "static/media/pnu.png": "/static/media/pnu.a2d8863a822a988bc119.png",
     "static/media/pngegg.png": "/static/media/pngegg.7ec14209ae4d92089ae9.png",
     "index.html": "/index.html",
     "main.670559ad.css.map": "/static/css/main.670559ad.css.map",
-    "main.5e54f817.js.map": "/static/js/main.5e54f817.js.map"
+    "main.b781a959.js.map": "/static/js/main.b781a959.js.map"
   },
   "entrypoints": [
     "static/css/main.670559ad.css",
-    "static/js/main.5e54f817.js"
+    "static/js/main.b781a959.js"
   ]
 }
