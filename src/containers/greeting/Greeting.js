@@ -97,7 +97,7 @@ export default function Greeting() {
                 <Button
                   text="자기소개서 내려받기"
                   className="download-link-button button"
-                  href={require("../../assets/resume/자기소개서(최인규).pdf")}
+                  href={require("../../assets/resume/자기소개서입니다(최인규).pdf")}
                   newTab={true}
                 />
 
