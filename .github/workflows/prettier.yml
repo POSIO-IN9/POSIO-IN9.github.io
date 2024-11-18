@@ -24,4 +24,10 @@ jobs:
       - name: Check Format
         run: |
           npm run check-format
+        continue-on-error: true  # 이 단계가 실패해도 계속 진행
+      
+      - name: Auto Format 📏 # Auto fix formatting if check-format fails
+        run: |
+          npm run format
+        if: failure()
 
