@@ -27,7 +27,9 @@ export default function Skills() {
             >
               {skillsSection.title}{" "}
             </h1>
+            <div className="skills-icon-div">
             <SoftwareSkill />
+            </div>
           </div>
         </Fade>
         <Fade right duration={1000}>

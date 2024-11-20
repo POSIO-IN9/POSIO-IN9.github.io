@@ -82,6 +82,7 @@ export default function Greeting() {
               >
                 {greeting.subTitle4}
               </p>
+              <div></div>
               <div id="resume" className="empty-div"></div>
               <div className="mail">
                 <div className="tooltip-container" onClick={copyToClipboard}>
@@ -115,7 +116,7 @@ export default function Greeting() {
               <FlipImage
                 frontImage={frontImage}
                 backImage={backImage}
-                size={350}
+              
               />
             </div>
           </div>
