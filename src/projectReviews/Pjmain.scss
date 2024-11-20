@@ -146,6 +146,12 @@
   .codetitle {
     font-size: 12px;
   }
+  .pj {
+    justify-items: center;
+    width: 60%;
+    justify-self: center;
+    padding-top: 24px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -163,5 +169,11 @@
   }
   .codetitle {
     font-size: 10px;
+  }
+  .pj {
+    justify-items: center;
+    width: 60%;
+    justify-self: center;
+    padding-top: 24px;
   }
 }

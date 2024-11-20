@@ -93,7 +93,7 @@ const Data = [
       {
         title: "docker-compose up",
         content:
-          "docker를 이용한 이미지화를 통해 운영체제의 변경에도 쉽고 빠르게 생태계를 구축. 이를 docker-compose로 각 컨테이너를 연결하여 최적화된 배포 시행. "
+          "docker를 이용한 이미지화를 통해 운영체제의 변경에도 쉽고 빠르게 생태계를 구축. 이를 docker-compose로 각 컨테이너를 연결하여 최적화된 배포 시행"
       },
       {
         title: "nginx 포트포워딩 및 domain을 가져보다 ",
