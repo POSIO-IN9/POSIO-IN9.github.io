@@ -113,11 +113,7 @@ export default function Greeting() {
           </div>
           <div className="greeting-image-div">
             <div className="myimg">
-              <FlipImage
-                frontImage={frontImage}
-                backImage={backImage}
-              
-              />
+              <FlipImage frontImage={frontImage} backImage={backImage} />
             </div>
           </div>
         </div>

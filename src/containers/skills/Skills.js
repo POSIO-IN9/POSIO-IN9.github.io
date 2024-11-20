@@ -28,7 +28,7 @@ export default function Skills() {
               {skillsSection.title}{" "}
             </h1>
             <div className="skills-icon-div">
-            <SoftwareSkill />
+              <SoftwareSkill />
             </div>
           </div>
         </Fade>

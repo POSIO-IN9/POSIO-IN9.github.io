@@ -18,7 +18,7 @@ const FlipImage = ({
   }, [flipInterval]);
 
   return (
-    <div className="flip-image-container" >
+    <div className="flip-image-container">
       <div className={`flip-image-inner ${isFlipped ? "flipped" : ""}`}>
         <img className="flip-image" src={frontImage} alt="Front" />
         <img className="flip-image back" src={backImage} alt="Back" />
